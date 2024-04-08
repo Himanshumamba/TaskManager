@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Application</title>
+    <link rel="stylesheet" href="./css/task.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tasker_It HP</h1>
+        <form id="taskForm" action="/" method="POST">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="description" placeholder="Description"></textarea>
+            <select id="status">
+                <option value="To Do">To Do</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Done">Done</option>
+            </select>
+            <button type="submit">Add Task</button>
+            
+        </form>
+        <div id="taskList"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../frontend/js/task.js"></script>
+</body>
+</html>

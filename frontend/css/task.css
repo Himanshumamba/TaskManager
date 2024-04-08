@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+}
+
+/* Form styles */
+#taskForm {
+    margin-bottom: 20px;
+}
+
+#taskForm input[type="text"],
+#taskForm textarea,
+#taskForm select,
+#taskForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#taskForm textarea {
+    height: 100px;
+}
+
+#taskForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Task list styles */
+.task {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.task h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.task p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.task button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.task button:hover {
+    background-color: #c82333;
+}

@@ -85,8 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
             updateForm.style.display = 'block';
         } else if(e.target.classList.contains('close-btn')){
             const  closeIt  = e.target.parentElement.parentElement;
-            console.log(closeIt);
-
             closeIt.style.display ='none';
         } else if (e.target.classList.contains('save-btn')) {
             const taskItem = e.target.parentElement.parentElement;

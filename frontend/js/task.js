@@ -79,8 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
             deleteTask(taskId, taskItem);
         } else if (e.target.classList.contains('edit-btn')) {
             const taskItem = e.target.parentElement;
-            console.log(taskItem);
-
             const updateForm = taskItem.querySelector('.update-form');
             updateForm.style.display = 'block';
         } else if(e.target.classList.contains('close-btn')){

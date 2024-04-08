@@ -1,5 +1,5 @@
 Task Management Application
-This is a simple task management application built using HTML, CSS, and jQuery. It allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks.
+This is a simple task management application built using HTML, CSS, and jQuery, Nodejs/expressjs.MOngoDB It allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks.
 
 Features
 Add Task: Users can add a new task with a title, description, and status (To Do, In Progress, Done).

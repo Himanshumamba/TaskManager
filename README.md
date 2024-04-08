@@ -23,6 +23,3 @@ To add a new task, fill out the input fields in the form and click the "Add Task
 To view existing tasks, they will be listed below the form.
 To update a task, click the "Edit" button next to the task, make your changes in the update form, and click "Save".
 To delete a task, click the "Delete" button next to the task.
-Demo
-You can view a live demo of the application here.
-https://www.loom.com/share/3a2d4ea38ee04c6494058f2e19ca02dd

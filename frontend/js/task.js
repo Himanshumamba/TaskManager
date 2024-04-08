@@ -79,13 +79,18 @@ document.addEventListener('DOMContentLoaded', () => {
             deleteTask(taskId, taskItem);
         } else if (e.target.classList.contains('edit-btn')) {
             const taskItem = e.target.parentElement;
+            console.log(taskItem);
+
             const updateForm = taskItem.querySelector('.update-form');
             updateForm.style.display = 'block';
         } else if(e.target.classList.contains('close-btn')){
-            const  closeIt  = e.target.parentElement;
+            const  closeIt  = e.target.parentElement.parentElement;
+            console.log(closeIt);
+
             closeIt.style.display ='none';
         } else if (e.target.classList.contains('save-btn')) {
             const taskItem = e.target.parentElement.parentElement;
+            console.log(taskItem);
             const taskId = taskItem.dataset.taskId;
             const updateTitle = taskItem.querySelector('.update-title').value;
             const updateDescription = taskItem.querySelector('.update-description').value;

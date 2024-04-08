@@ -65,6 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <option value="Done">Done</option>
                 </select>
                 <button class="save-btn">Save</button>
+                <button class="close-btn">Close </button>
+
             </div>
         `;
         taskList.appendChild(taskItem);
@@ -79,6 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const taskItem = e.target.parentElement;
             const updateForm = taskItem.querySelector('.update-form');
             updateForm.style.display = 'block';
+        } else if(e.target.classList.contains('close-btn')){
+            const  closeIt  = e.target.parentElement;
+            closeIt.style.display ='none';
         } else if (e.target.classList.contains('save-btn')) {
             const taskItem = e.target.parentElement.parentElement;
             const taskId = taskItem.dataset.taskId;
